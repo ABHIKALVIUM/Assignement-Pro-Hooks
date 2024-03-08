@@ -1,0 +1,43 @@
+
+
+h1, h2 {
+  color: yellow;
+  text-align: center;
+}
+
+.page {
+  margin-left: 500px;
+  margin-top: 100px;
+  height: 600px;
+  width: 600px;
+}
+
+button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Default font */
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.dark-button {
+  font-family: 'Georgia', serif; /* Change font for dark button */
+  height: 40px;
+  width: 120px;
+  background-color: #333;
+  color: #fff;
+}
+
+.light-button {
+  font-family: 'Verdana', sans-serif; /* Change font for light button */
+  height: 40px;
+  width: 120px;
+  background-color: #ddd;
+  color: #333;
+}
+
+.change-value-button, .show-list-button {
+  height: 30px;
+  width: 100px;
+}
